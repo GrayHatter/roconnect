@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+    <category id="0" title="All Media" description="Your Media Library" sd_img="roku/images/media.png" hd_img="roku/images/media.png">
+        <categoryLeaf title="All Media" description="Your Media Library" feed="roku/xml/all.xml"/>
+    </category>
+</categories>

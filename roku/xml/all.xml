@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feed>
+	<!-- resultLength indicates the total number of results for this feed -->
+    <resultLength>0</resultLength>
+	<!-- endIndix  indicates the number of results for this *paged* section of the feed -->
+    <endIndex>0</endIndex>
+</feed>

@@ -1,0 +1,70 @@
+/* 
+    Document   : iehacks.css
+    Created on : Mar 10, 2011, 8:22:36 PM
+    Author     : saulpower1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html {
+    background-color: #707070;
+}
+
+#nav {
+    position: absolute;
+}
+
+#nav-left {
+    position: absolute;
+}
+
+#panel-container {
+    margin-top: 30px;
+    background-color: red;
+}
+
+.main {
+    margin-left: 259px;
+    margin-top: 75px;
+    min-height:675px;
+}
+
+.sidebar {
+    padding-top: 10px;
+    min-height: 675px;
+}
+
+.paging_full_numbers {
+    line-height: 26px;
+}
+
+#metaInfo .three {
+    width: 180px;
+}
+
+.tableMenu {
+    margin-top: 18px;
+}
+
+#metaInfo a {
+    right: 0;
+    bottom: 0;
+    position: relative;
+}
+
+#configs td {
+    text-align: left;
+}
+
+#playercontainer {
+    margin-top: 75px;
+}
+
+#watchNow img {
+    border: none;
+}

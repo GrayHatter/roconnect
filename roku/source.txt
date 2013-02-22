@@ -1,0 +1,11 @@
+Mac Version 1.2 Beta
+
+Release Notes
+
+-Added more robust configuration checking on all fields
+-Changed server URL to just server IP address for simplicity
+-Added recursive indexing
+-Added option to turn off IMDb automatic querying
+-Added mediainfo for metadata retrieval, no longer needs ffmpeg
+-Added IP lookup using ifconfig and IP on en0
+-Changed aliases to a local copy creating include on httpd.conf of apache server

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rokuConfig>
+    <new>true</new>
+    <videoPath></videoPath>
+    <serverConf></serverConf>
+    <myIp>0.0.0.0</myIp>
+    <IMDb>false</IMDb>
+    <recursive>false</recursive>
+</rokuConfig>
