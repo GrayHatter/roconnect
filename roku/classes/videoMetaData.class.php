@@ -293,7 +293,7 @@ class videoMetaData {
 
                                 $this->getMetaData($media, $this->isVideoFormat($dir, $file));
 
-                                $medias[] = $media." /n";
+                                $medias[] = $media;
                             }
 
                         } catch (Exception $exc) {
@@ -347,7 +347,8 @@ class videoMetaData {
             $finalHeight = $height[0];
         $size = $finalWidth . "x" . $finalHeight;
 
-        $bitrate = explode(" ", $video['Bit_rate']);
+        //some files omit this, I think it's close enough 
+        @$bitrate = explode(" ", $video['Bit_rate']);
         if (count($bitrate) > 2)
             $finalBitrate = $bitrate[0] . $bitrate[1];
         else
@@ -356,7 +357,7 @@ class videoMetaData {
         $frameRate = explode(" ", $video['Frame_rate']);
 
         $movie = new movie();
-        $movie->title = $title[0];
+        $movie->title = $title;
         $movie->runtime = $seconds;
         $movie->streamBitrate = (int) $finalBitrate;
         if ((int) $finalBitrate >= 2000) {
