@@ -293,7 +293,7 @@ class videoMetaData {
 
                                 $this->getMetaData($media, $this->isVideoFormat($dir, $file));
 
-                                $medias[] = $media;
+                                $medias[] = $media." /n";
                             }
 
                         } catch (Exception $exc) {
@@ -330,7 +330,8 @@ class videoMetaData {
     private function processVideo($xmlVars, $file) {
         $video = get_object_vars($xmlVars['File']->track[1]);
 
-        $title = explode(".", $file);
+        //$title = explode(".", $file);
+        $title = $file;
 
         $seconds = $this->getTime($video['Duration']);
 

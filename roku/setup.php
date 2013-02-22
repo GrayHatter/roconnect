@@ -19,7 +19,7 @@ class setup {
         //Linux machine
         if (strtoupper(substr(PHP_OS, 0, 3)) === 'LIN') {
             $videoPath = "~/movies/";
-            $serverConf = "/etc/apache2/apache2.conf";
+            $serverConf = "/etc/httpd/conf/httpd.conf";
 
             //Modify permissions for linux systems
             exec("chmod 777 /var/www/xml/all.xml");
